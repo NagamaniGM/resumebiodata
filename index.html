@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume and Bio-data</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Resume and Bio-data</h1>
+        <nav>
+            <ul>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#biodata">Bio-data</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="resume">
+            <h2>Resume</h2>
+            <p><strong>Name:</strong> John Doe</p>
+            <p><strong>Profession:</strong> Web Developer</p>
+            <p><strong>Skills:</strong> HTML, CSS, JavaScript, React, Node.js</p>
+            <p><strong>Experience:</strong> 5 years of experience in web development</p>
+        </section>
+
+        <section id="biodata">
+            <h2>Bio-data</h2>
+            <p><strong>Date of Birth:</strong> January 1, 1990</p>
+            <p><strong>Gender:</strong> Male</p>
+            <p><strong>Nationality:</strong> American</p>
+            <p><strong>Languages Known:</strong> English, Spanish</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 John Doe</p>
+    </footer>
+</body>
+</html>
